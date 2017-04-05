@@ -13,14 +13,15 @@
 
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
         <link rel="stylesheet" href="css/main.css">
-
+        
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
     </head>
     <body>
-        <!--[if lt IE 8]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
+    <!--[if lt IE 8]>
+        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
 
     <!-- nav bar -->
     <nav class="navbar" role="navigation">
@@ -34,27 +35,34 @@
          <source srcset="img/large_head.png" media="(min-width: 900px)">
          <source srcset="img/med_head.png" media="(min-width: 550px)">
          <source srcset="img/small_head.png" media="(min-width: 400px)">
-         <img src="img/large_head.png" style="width:100%">
+         <img src="img/large_head.png">
         </picture>
+      </div>
+      <div class="friends text-center">
+        <h3>San Francisco, CA</h3>
+        <p>34 Friends</p>
       </div>
     </header>
 
     <!-- buttons content -->
     <div class="container-fluid">
-      <div class="row">
-        <div class="col-sm-6 col-lg-4">
-          <a class="btn btn-primary btn-lg btn-block" href="#" role="button">Learn more »</a>
+      <div class="row buttons">
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+          <a class="btn btn-lg btn-block btn-blue" href="#" role="button">Learn More</a>
         </div>
-        <div class="col-sm-6 col-lg-4">
-          <a class="btn btn-primary btn-lg btn-block" href="#" role="button">&nbsp;</a>
+        <div class="col-xs-12 col-sm-6  col-md-4 col-lg-4">
+          <a class="btn btn-lg btn-block btn-pink" href="#" role="button">&nbsp;</a>
         </div>
-        <div class="col-sm-12 col-lg-4">
-          <a class="btn btn-primary btn-lg btn-block" href="#" role="button">&nbsp;</a>
+        <div class="col-xs-12 col-sm-12  col-md-4 col-lg-4">
+          <a class="btn btn-lg btn-block btn-yellow" href="#" role="button">&nbsp;</a>
+        </div>
+        <div class="col-xs-12 col-sm-12 hidden-sm hidden-md hidden-lg">
+          <a class="btn btn-lg btn-block btn-green" href="#" role="button">&nbsp;</a>
         </div>
       </div>
 
       <!-- textual content -->
-      <div class="row">
+      <div class="row marketing">
         <div class="col-lg-12 hidden-xs hidden-sm hidden-md">
           <h2 class="text-center">Sed FILL rum delectus ne, ne nibh virtue conceptam cum, choro graeci consequat ea vix. At labore dignissim qui.</h2>
           <p>Autem albucius vel at, bonorum adipisci postulant ea nec. Ne nusquam accumsan honestatis mea, te est putant possim ornatus, debitis moderatius ut cum. Has at habeo nulla vulputate, ut reque option feugiat qui. Per labore invidunt recusabo te, tantas democritum constituto pro te, no ius mazim ubique facilisis.</p>
@@ -68,9 +76,12 @@
           <p>Autem albucius vel at, bonorum adipisci postulant ea nec. Ne nusquam accumsan honestatis mea, te est putant possim ornatus, debitis moderatius ut cum. Has at habeo nulla vulputate, ut reque option feugiat qui. Per labore invidunt no ius mazim ubique facilisis.</p>
         </div>
       </div>
+    </div> <!-- /container -->        
 
-      <footer>
-        <div class="col-sm-6 col-xs-12 ">
+    <!-- foot -->    
+    <footer >
+      <div class="container">
+        <div class="col-sm-6 col-xs-12">
           <h3>Footer Links ONE</h3>
           <ul>
             <li>Link 1 Tota ceterno ne pri</li>
@@ -80,7 +91,7 @@
           </ul>
         </div>
 
-        <div class="col-sm-6 hidden-xs">
+        <div class="col-sm-4 col-md-3 hidden-xs">
           <h3>Footer Links TWO</h3>
           <ul>
             <li>Link 1 Tota ceterno ne pri</li>
@@ -89,9 +100,9 @@
             <li>Link 4 Tota ceterno ne pri</li>
           </ul>
         </div>
-
-      </footer>
-    </div> <!-- /container -->        
+      </div>
+    </footer>
+    <!-- /foot -->
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
